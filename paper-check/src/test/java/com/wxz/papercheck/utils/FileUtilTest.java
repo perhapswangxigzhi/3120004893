@@ -1,12 +1,7 @@
 package com.wxz.papercheck.utils;
 
 import org.junit.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-import java.io.File;
-
-
-@SpringBootTest
 public class FileUtilTest {
     @Test
     public void readTxtTest() {

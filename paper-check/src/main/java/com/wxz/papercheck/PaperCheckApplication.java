@@ -3,14 +3,12 @@ package com.wxz.papercheck;
 import com.wxz.papercheck.utils.HammingUtil;
 import com.wxz.papercheck.utils.SimHashUtil;
 import com.wxz.papercheck.utils.FileUtil;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+
 public class PaperCheckApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PaperCheckApplication.class, args);
+
         // 读取论文txt文件，转化为final常量字符串
         final String fileStr0 = FileUtil.txtTransferToStr(args[0]);
         final String fileStr1 = FileUtil.txtTransferToStr(args[1]);

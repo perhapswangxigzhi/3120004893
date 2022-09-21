@@ -1,11 +1,9 @@
 package com.wxz.papercheck.utils;
 
 import org.junit.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 
-//@RunWith(SpringRunner.class)
-@SpringBootTest
+
 public class HammingUtilTest {
 
     @Test
