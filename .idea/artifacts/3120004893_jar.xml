@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="3120004893:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/3120004893_jar</output-path>
+    <root id="archive" name="3120004893.jar">
+      <element id="module-output" name="paper-check" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.10/hutool-all-5.3.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.2/hanlp-portable-1.7.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
