@@ -6,9 +6,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class AlgoCalculate {
+public class Calculate {
     public String result;
-    public AlgoCalculate(String formula) {
+    public Calculate(String formula) {
         List<String> rpn = initRPN(formula);
         result = processCalculate(rpn);
     }

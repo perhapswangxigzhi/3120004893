@@ -141,7 +141,7 @@ import javax.swing.*;
 
                     if (actionCombobox.getSelectedIndex() == 0){
                         try {
-                            output = AlgoArithmetic.work(Integer.parseInt(maxNumber), Integer.parseInt(rangeValue), directoryPath, outputFilePath);
+                            output = Generate.work(Integer.parseInt(maxNumber), Integer.parseInt(rangeValue), directoryPath, outputFilePath);
                             outText_textarea.setText(output);
                         } catch (IOException e) {
                             output = "生成失败 请检查文件路径是否存在！";
@@ -150,7 +150,7 @@ import javax.swing.*;
                         }
                     }else {
                         try {
-                            output = AlgoArithmetic.check(directoryPath, outputFilePath, gradePath);
+                            output = Generate.check(directoryPath, outputFilePath, gradePath);
                             outText_textarea.setText(output);
                         } catch (IOException e) {
                             output = "检查失败 请检查文件是否存在！";
